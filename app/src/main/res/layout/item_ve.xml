@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="2dp"
+    android:padding="8dp"
+    app:cardBackgroundColor="@color/white">
+
+    <!-- Nội dung chứa thông tin của chuyến xe -->
+
+    <!-- Riêng tiền vé nằm ở góc bên phải của CardView -->
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtBenDi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Điểm đi: " />
+
+        <TextView
+            android:id="@+id/txtBenDen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Điểm đến: " />
+
+        <TextView
+            android:id="@+id/txtGiaVe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá vé: " />
+
+        <Button
+            android:id="@+id/btnHuyVe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy vé" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

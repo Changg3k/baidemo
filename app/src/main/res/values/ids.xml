@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtBenDi" type="id" />
+    <item name="txtBenDen" type="id" />
+    <item name="txtGiaVe" type="id" />
+    <item name="btnHuyVe" type="id" />
+</resources>
